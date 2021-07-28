@@ -1,0 +1,47 @@
+﻿<Window x:Class="SistemaEmpleados.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SistemaEmpleados"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,1,0,-2" RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.007"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="DPI" HorizontalAlignment="Left" Margin="38,20,0,0" VerticalAlignment="Top" Height="26" Width="38"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="36,46,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="234,20,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="234,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.525,-0.478"/>
+        <Label Content="Hijos" HorizontalAlignment="Left" Margin="38,106,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="38,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Salario Base" HorizontalAlignment="Left" Margin="234,106,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="234,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Bono Decreto" HorizontalAlignment="Left" Margin="36,205,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="36,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="IGSS:" HorizontalAlignment="Left" Margin="38,301,0,0" VerticalAlignment="Top"/>
+        <Label Content="prueba" HorizontalAlignment="Left" Margin="81,301,0,0" VerticalAlignment="Top"/>
+        <Label Content="IRTRA:" HorizontalAlignment="Left" Margin="179,301,0,0" VerticalAlignment="Top"/>
+        <Label Content="prueba" HorizontalAlignment="Left" Margin="234,301,0,0" VerticalAlignment="Top"/>
+        <Label Content="Bono de Paternidad:" HorizontalAlignment="Left" Margin="38,346,0,0" VerticalAlignment="Top"/>
+        <Label Content="prueba" HorizontalAlignment="Left" Margin="160,346,0,0" VerticalAlignment="Top"/>
+        <Label Content="Salario Total:" HorizontalAlignment="Left" Margin="519,328,0,0" VerticalAlignment="Top"/>
+        <Label Content="prueba" HorizontalAlignment="Left" Margin="613,328,0,0" VerticalAlignment="Top"/>
+        <Label Content="Salario Liquido:" HorizontalAlignment="Left" Margin="519,371,0,0" VerticalAlignment="Top"/>
+        <Label Content="prueba" HorizontalAlignment="Left" Margin="615,371,0,0" VerticalAlignment="Top"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="472,46,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="585,46,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
